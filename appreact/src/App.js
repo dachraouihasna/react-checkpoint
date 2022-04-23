@@ -3,8 +3,10 @@ import './App.css';
 import { Button, Form } from 'react-bootstrap';
 
 function App() {
+  
   return (
-    <div className="App">
+    
+  <div className="App">
       <Form>
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Email address</Form.Label>
@@ -23,12 +25,12 @@ function App() {
         </Form.Group>
         <Button variant="primary" type="submit">
           Submit
-        </Button> 
+        </Button>
         <br></br>
         <br></br>
       </Form>
       <br></br>
-      
+
       <Form>
         <Form.Group>
           <Form.Label>Name</Form.Label>
@@ -55,17 +57,17 @@ function App() {
           <option value="4">Manouba</option>
         </Form.Select> <br></br>
         <Button variant="primary" type="submit">Confirmer</Button>{' '}
-        <Button variant="danger" type="reset">Annuler</Button> 
+        <Button variant="danger" type="reset">Annuler</Button>
         <br></br>
         <br></br>
-      </Form> 
+      </Form>
 
       <hr></hr>
 
       <Form>
 
       </Form>
-    </div>
+    </div> 
   );
 }
 
